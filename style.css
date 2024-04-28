@@ -1,0 +1,107 @@
+body {
+    font-family: 'arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f1;
+    color: #333;
+}
+
+header {
+    border-color: #005f73;
+    color: rgba(255, 255, 255, 0.113);
+    padding: 15px 0;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header h1 {
+    color: black;
+    margin-left: 20px;
+}
+nav ul {
+    list-style:none;
+    display: flex;
+}
+nav ul li a {
+    color: rgb(233, 24, 24);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#payu {
+    background-image: url(https://img.freepik.com/premium-photo/modern-office-space-with-desktops-with-modern-computers-created-with-generative-ai-technology_185193-110090.jpg); /*add your image path */
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    align-items: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(90, 37, 37);
+}
+
+.payu-content {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: rgb(198, 23, 140);
+    text-decoration: none;
+border-radius: background-color 5px;
+}
+
+.payu-button :hover{
+ background-color: #d64b2a;
+}
+
+footer {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+/*Existing css remains the same*/
+/*styling for service section*/
+
+#about {
+    background-color: #e51414;
+    padding: 20px;
+
+text-align: left;
+}
+#about h2 {
+    color: #28a745;
+    margin-bottom: 15px;
+
+}
+
+/* styling for Contact Section */
+#contact {
+    background-color: #14e45d;
+    padding: 20px;
+    text-align: left;
+}
+#contact h2 {
+    color: #dc3545;
+    margin-bottom: 15px;
+}
+#contact p {
+    margin-bottom: 10px;
+} /* REsponsive Design adjustment*/
+
+@media screen and (max-width:768px) {
+    #service, #about, #contact {
+        text-align: center;
+    }
+
+    #services ul {
+        list-style-type: none;
+        padding: 0;
+    }
+}
